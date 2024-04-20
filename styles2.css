@@ -1,0 +1,166 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: rgb(219, 179, 179);
+    color: rgb(0, 8, 8);
+}
+#Contenedor{
+    width: 1349px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+}
+header{
+    height: 150px;
+    background: rgb(255, 136, 0);
+}
+header h1{
+    line-height: 100px;
+    font-size: 50px;
+    text-align: center;
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #010f4e;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 200px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 59px;
+    color: #859bfd;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: red;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: #859bfd;
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: aliceblue;
+}
+.menu-vertical li a{
+    display: block;
+    color: #fff;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}    
+.Contenido{
+    height: 1000px;
+    width: 1300px;
+    background: blue;
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right:25px;
+
+}
+.Contenido p{
+    font-size: 20px;
+    height: 100px;
+    padding: 10px;
+}
+.segundocontenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.delparrafo{
+    width: 45%;
+    margin-right: 730px;
+    margin-left: 10px;
+    padding-top: 25px;
+    padding-left: 50px;
+    text-align: left;
+}
+.tercercontenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tercerparrafo{
+    width: 45%;
+    margin-right: 50px;
+    margin-left: 700px;
+    padding-top: 45px;
+    padding-left: 100px;
+    text-align: right;
+}
+.imgss{
+    width: 600px;
+    height: auto;
+    top: 360px;
+    left: 720px;
+    position: absolute;
+}
+.imgsss{
+    width: 600px;
+    height: auto;
+    top: 495px;
+    right: 1450px;
+    position: absolute;
+}
+.imgssss{
+    width: 600px;
+    height: auto;
+    top: 750px;
+    left: 720px;
+    position: absolute;
+}
+footer{
+    background: #000;
+    clear: both;
+}
+footer h2{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+}
+.parah5{
+    text-align: center;
+    color: #859bfd;
+}
+nav .redes{
+    list-style: none;
+    padding: 0%;
+    background: #92a6fd;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+.redes li a{
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    color: aqua;
+    padding-left: 30px;
+    margin-left: 40px;
+}
+.redes li{
+    display: inline-block;
+    text-align: center;
+}
+.redes li a:hover{
+    background: #859bfd;
+}
